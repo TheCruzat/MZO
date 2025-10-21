@@ -1,0 +1,75 @@
+{
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"spacing": {
+        	"padding": true,
+			"margin": true,
+			"blockGap": true	
+		},
+		"layout": {
+			"contentSize": "645px",
+			"wideSize": "1340px"
+		},
+		"typography": {
+			"writingMode": false,
+			"customFontSize": true,
+			"dropCap": true,
+			"fontStyle": true,
+			"fontWeight": true,
+			"letterSpacing": false,
+			"lineHeight": false,
+			"textColumns": true,
+			"textDecoration": true,
+			"textTransform": true
+		}
+	},
+	"styles": {
+		"spacing": {
+			"blockGap": "var:preset|spacing|60",
+			"padding": {
+				"left": "var:preset|spacing|60",
+				"right": "var:preset|spacing|60"
+			}
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		},
+		{
+			"area": "uncategorized",
+			"name": "resume-button",
+			"title": "Resume Button"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "page-primary",
+			"postTypes": ["page"],
+			"title": "Page Primary"
+		},
+		{
+			"name": "page-no-title",
+			"postTypes": ["page"],
+			"title": "Page No Title"
+		},
+		{
+			"name": "page-full-width",
+			"postTypes": ["page"],
+			"title": "Page Full Width"
+		},
+		{
+			"name": "frontpage",
+			"postTypes": ["page"],
+			"title": "Home Page"
+		}
+	]
+}

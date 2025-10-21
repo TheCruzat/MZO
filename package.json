@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "tailwind-watch": "npx @tailwindcss/cli -i ./mzo.css -o ./mzo-tw.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}

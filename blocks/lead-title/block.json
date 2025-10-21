@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/lead-title",
+  "version": "0.1.0",
+  "title": "Lead Title",
+  "category": "widgets",
+  "icon": "heading",
+  "description": "Displays top page title",
+  "example": {},
+  "attributes": {
+    "leadTitle": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false,
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": true
+    }
+  },
+  "textdomain": "lead-title",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}

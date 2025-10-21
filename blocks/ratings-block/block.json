@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/ratings-block",
+  "version": "0.1.0",
+  "title": "Ratings Block",
+  "category": "widgets",
+  "icon": "star-half",
+  "description": "Displays a testimonial, name and star rating",
+  "example": {},
+  "attributes": {
+    "ratingNumber": {
+      "type": "string"
+    },
+    "ratingName": {
+      "type": "string"
+    },
+    "ratingQuote": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ratings-block",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}

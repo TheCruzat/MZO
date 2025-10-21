@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/big-icon",
+  "version": "0.1.0",
+  "title": "Big Icon",
+  "category": "widgets",
+  "icon": "plus-alt",
+  "description": "Put a big ole FA icon on yer page dere bud",
+  "example": {},
+  "attributes": {
+    "iconprefix": {
+      "type": "string",
+      "label": "Icon Prefix"
+    },
+    "iconname": {
+      "type": "string",
+      "label": "Icon Name"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "big-icon",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}
