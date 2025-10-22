@@ -24,15 +24,6 @@
 			"textTransform": true
 		}
 	},
-	"styles": {
-		"spacing": {
-			"blockGap": "var:preset|spacing|60",
-			"padding": {
-				"left": "var:preset|spacing|60",
-				"right": "var:preset|spacing|60"
-			}
-		}
-	},
 	"templateParts": [
 		{
 			"area": "header",
